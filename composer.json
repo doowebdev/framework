@@ -1,0 +1,53 @@
+{
+  "name": "doowebdev/framework",
+  "description": "Doowebdev Framework.",
+  "homepage": "https://github.com/doowebdev/framework",
+  "keywords": [
+    "framework"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Freddie Annobil",
+      "homepage": "http://doowebdev.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/contracts": "5.0.*@dev",
+    "illuminate/support": "5.0.*@dev",
+    "illuminate/container": "5.0.*@dev",
+    "illuminate/routing": "5.0.*@dev",
+    "illuminate/events": "5.0.*@dev",
+    "illuminate/database": "5.0.*@dev",
+    "twig/twig":"1.*",
+    "slim/slim": "2.*",
+    "itsgoingd/slim-facades": "1.*",
+    "slim/views": "0.*",
+    "zeuxisoo/slim-whoops": "0.3.0",
+    "doowebdev/doo-csrf": "1.*",
+    "desarrolla2/cache": "1.*",
+    "fuelphp/upload": "2.*",
+    "evert/sitemap-php": "1.*",
+    "cartalyst/sentry": "2.1.*",
+    "ircmaxell/password-compat": "1.0.*",
+    "suin/php-rss-writer": ">=1.0",
+    "swiftmailer/swiftmailer": "5.2.1",
+    "guzzlehttp/guzzle": "~4.0",
+    "doowebdev/doo-fileupload": "1.*",
+    "doowebdev/doo-pagination": "1.*",
+    "hybridauth/hybridauth": "~2.3.0",
+    "symfony/translation": "~2.3",
+    "symfony/config": "2.5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Doowebdev\\": "src"
+    }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true
+
+}
