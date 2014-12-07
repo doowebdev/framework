@@ -25,8 +25,8 @@
     "cartalyst/sentry": "2.1.*",
     "ircmaxell/password-compat": "1.0.*",
     "suin/php-rss-writer": ">=1.0",
-    "swiftmailer/swiftmailer": "~5.2.1",
-    "guzzlehttp/guzzle": "~4.0",
+    "swiftmailer/swiftmailer": "5.2.1",
+    "guzzlehttp/guzzle": "4.0",
     "doowebdev/doo-pagination": "1.*",
     "itsgoingd/slim-services": "1.*",
     "fuelphp/upload": "2.*",
@@ -35,10 +35,10 @@
     "desarrolla2/cache": "1.*",
     "itsgoingd/slim-facades": "1.*",
     "slim/views": "0.*",
-    "zeuxisoo/slim-whoops": "~0.3.0",
-    "hybridauth/hybridauth": "~2.3.0",
-    "symfony/translation": "~2.3",
-    "symfony/config": "~2.5.7"
+    "zeuxisoo/slim-whoops": "0.3.0",
+    "hybridauth/hybridauth": "2.3.0",
+    "symfony/translation": "2.3",
+    "symfony/config": "2.5.7"
   },
 
   "autoload": {
