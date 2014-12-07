@@ -17,13 +17,15 @@
     "php": ">=5.4.0",
     "twig/twig":"1.*",
     "slim/slim": "2.*",
-    "illuminate/container": "4.*",
-    "illuminate/database": "4.*",
-    "illuminate/support": "4.*",
+    "illuminate/contracts": "5.0.*@dev",
+    "illuminate/support": "5.0.*@dev",
+    "illuminate/container": "5.0.*@dev",
+    "illuminate/events": "5.0.*@dev",
+    "illuminate/database": "5.0.*@dev",
     "cartalyst/sentry": "2.1.*",
     "ircmaxell/password-compat": "1.0.*",
     "suin/php-rss-writer": ">=1.0",
-    "swiftmailer/swiftmailer": "5.2.1",
+    "swiftmailer/swiftmailer": "~5.2.1",
     "guzzlehttp/guzzle": "~4.0",
     "doowebdev/doo-pagination": "1.*",
     "itsgoingd/slim-services": "1.*",
@@ -33,10 +35,10 @@
     "desarrolla2/cache": "1.*",
     "itsgoingd/slim-facades": "1.*",
     "slim/views": "0.*",
-    "zeuxisoo/slim-whoops": "0.3.0",
+    "zeuxisoo/slim-whoops": "~0.3.0",
     "hybridauth/hybridauth": "~2.3.0",
     "symfony/translation": "~2.3",
-    "symfony/config": "2.5.7"
+    "symfony/config": "~2.5.7"
   },
 
   "autoload": {
@@ -46,6 +48,7 @@
     }
   },
 
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 
 }
